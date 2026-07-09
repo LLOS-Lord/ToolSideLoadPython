@@ -1,4 +1,4 @@
-# iOS Sideload Tool (Upgraded)
+# iOS Sideload Tool
 
 Công cụ hỗ trợ sideload file IPA lên thiết bị iOS sử dụng Apple ID, được nâng cấp với các tính năng tự động hóa thông minh.
 
