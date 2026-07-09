@@ -15,10 +15,21 @@ Công cụ hỗ trợ sideload file IPA lên thiết bị iOS sử dụng Apple 
     - Tự động dùng lại Certificate cũ nếu còn hạn để tránh đụng giới hạn 2 cert/tài khoản.
     - Hỗ trợ thu hồi (Revoke) Certificate ngay trong tool.
 
+## Lệnh Setup Môi Trường
+```bash
+pkg install git
+pkg install python
+git clone https://github.com/LLOS-Lord/ToolSideLoadPython.git
+cd ToolSideLoadPython
+pip install srp requests 
+pkg install python-cryptography
+```
+
+
 ## Cách sử dụng
 
 ```bash
-python3 main.py
+python main.py
 ```
 
 ### Menu chính:
