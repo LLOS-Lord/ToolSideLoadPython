@@ -20,7 +20,6 @@ Công cụ hỗ trợ sideload file IPA lên thiết bị iOS sử dụng Apple 
 pkg update -y
 pkg upgrade -y
 pkg install git
-pkg install python-git
 pkg install python
 git clone https://github.com/LLOS-Lord/ToolSideLoadPython.git
 cd ToolSideLoadPython
